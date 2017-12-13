@@ -1,0 +1,105 @@
+@CHARSET "ISO-8859-1";
+
+
+iframe {
+	border: none;
+	background: lightblue;
+	border-radius: 20px;
+}
+
+/* title */
+h1 {
+	
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	height: fit-content;
+	float: top;	
+	width: 95%;
+	margin: auto;	
+}
+
+/* div where buttons are */
+#buttons {
+	
+	background-color: lightblue;	
+	margin: auto;
+	float: top;		
+	text-align: center;	
+	width: 95%;
+	
+}
+
+/* individual buttons */
+#select{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: lightgreen;
+}
+
+/* the buttons together */
+#button {
+	margin: 10px;
+	display: inline-block;		
+}
+
+/* the iframe section */
+#section {
+	width: 95%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+}
+
+
+textarea{
+	resize: none;
+}
+
+#login, .loginPage {
+	color: red;
+}
+
+#regError{
+	color: red;
+}
+
+fieldset {
+	border-radius: 20px;
+	background-color: #e7d7c2;	
+	padding: 15px;
+	margin: 10px;
+}
+
+.usermenu {
+	background-color: lightblue;;
+	text-align: center;
+	width: fit-content;
+	text-align: center;
+	margin: auto;
+}
+
+#userbutton {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #ff8080;
+}
+
+
+#flagButton{
+	visibility: show;
+	display: inline-block;
+}
+
+#form {
+	border: 2px solid black;
+	width: fit-content;
+	height: fit-content;
+	padding: 15px;
+	border-radius: 10px;
+	
+}
+
